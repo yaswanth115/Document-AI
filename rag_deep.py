@@ -3,6 +3,7 @@ from langchain_community.document_loaders import PDFPlumberLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
+from config import EMBEDDING_MODEL_NAME, CHROMA_DB_PATH  # Absolute import
 import os
 import config
 
